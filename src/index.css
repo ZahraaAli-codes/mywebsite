@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@font-face {
+  font-family: 'Spicy Rice'; /* This name MUST exactly match the name you used in tailwind.config.js */
+  src: url('./assets/fonts/SpicyRice-Regular.woff2') format('woff2'),
+       url('./assets/fonts/SpicyRice-Regular.woff') format('woff');
+  font-weight: normal; /* Adjust if your font has different weights */
+  font-style: normal;  /* Adjust if your font has italic styles */
+  font-display: swap;  /* Good practice for performance */
+}
+
