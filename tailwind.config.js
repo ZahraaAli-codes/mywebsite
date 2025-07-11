@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'spicy-rice': ['"Spicy Rice"', 'cursive'], // Define your custom font
+        // Change 'spicy-rice' to 'spicyrice'
+        'spicyrice': ['Spicy Rice', 'cursive'], 
       },
     },
   },

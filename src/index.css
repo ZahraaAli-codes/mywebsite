@@ -1,10 +1,16 @@
+/* src/index.css */
 @import 'tailwindcss';
+
 @font-face {
-  font-family: 'Spicy Rice'; /* This name MUST exactly match the name you used in tailwind.config.js */
-  src: url('./assets/fonts/SpicyRice-Regular.woff2') format('woff2'),
-       url('./assets/fonts/SpicyRice-Regular.woff') format('woff');
-  font-weight: normal; /* Adjust if your font has different weights */
-  font-style: normal;  /* Adjust if your font has italic styles */
-  font-display: swap;  /* Good practice for performance */
+  font-family: 'Spicy Rice';
+  src: url('/fonts/SpicyRice-Regular.woff2') format('woff2'),
+       url('/fonts/SpicyRice-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
+/* Added this here to bypass tailwing.config, it basically fetches the custom font right from index.css */
+.font-custom-spicy {
+  font-family: 'Spicy Rice', cursive;
+}
